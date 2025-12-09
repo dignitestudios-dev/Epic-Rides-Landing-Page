@@ -129,7 +129,7 @@ const BuildingStrongerCommunities = () => {
           target="_blank"
           className="w-full"
         >
-          <Button className="w-full min-w-full">Donate Now</Button>
+          <Button className="w-full">Donate Now</Button>
         </Link>
       </div>
     </div>

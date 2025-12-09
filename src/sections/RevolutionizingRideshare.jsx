@@ -125,7 +125,9 @@ const RevolutionizingRideshare = () => {
         </p>
 
         <Link href={"https://tally.so/r/woq84x"} target="_blank">
-          <Button className="w-[500px]!">Become a Early founder driver</Button>
+          <Button className="lg:w-[500px] w-full">
+            Become a Early founder driver
+          </Button>
         </Link>
       </div>
     </div>
