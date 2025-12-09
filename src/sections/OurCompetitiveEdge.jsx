@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import CheckIcon from "@/components/icons/CheckIcon";
+import Link from "next/link";
 import React from "react";
 
 const OurCompetitiveEdge = () => {
@@ -30,10 +31,20 @@ const OurCompetitiveEdge = () => {
       </div>
 
       <div className="flex items-center sm:flex-row flex-col sm:gap-8 gap-4">
-        <Button className="lg:w-[370px] w-[220px]">Explore Investment</Button>
-        <Button className="lg:w-[370px] w-[220px]" variant="secondary">
-          Invest Now
-        </Button>
+        <Link href={"https://tally.so/r/311RQ1"} target="_blank">
+          <Button className="lg:w-[370px] lg:min-w-[370px] w-[220px] min-w-[220px]">
+            Explore Investment
+          </Button>
+        </Link>
+
+        <Link href={"https://tally.so/r/311RQ1"} target="_blank">
+          <Button
+            className="lg:w-[370px] lg:min-w-[370px] w-[220px] min-w-[220px]"
+            variant="secondary"
+          >
+            Invest Now
+          </Button>
+        </Link>
       </div>
     </div>
   );

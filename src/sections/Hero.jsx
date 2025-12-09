@@ -5,6 +5,7 @@ import Shield from "@/components/icons/Shield";
 import Users from "@/components/icons/Users";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
@@ -71,7 +72,9 @@ const Hero = () => {
             </div>
 
             <div className="flex justify-center">
-              <Button className={"w-full"}>Become a founding driver</Button>
+              <Link href={"https://tally.so/r/woq84x"} target="_blank">
+                <Button className={"w-full"}>Become a founding driver</Button>
+              </Link>
             </div>
           </div>
 

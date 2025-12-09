@@ -5,6 +5,7 @@ import Driver from "@/components/icons/Driver";
 import Email from "@/components/icons/Email";
 import React from "react";
 import EmailSubscriptionForm from "./EmailSubscriptionForm";
+import Link from "next/link";
 
 const EmailSubscription = () => {
   const content = [
@@ -40,9 +41,15 @@ const EmailSubscription = () => {
         </p>
 
         <div className="flex items-center gap-4 md:justify-start justify-center flex-wrap mt-12">
-          <Button>Join Early Drivers</Button>
-          <Button>Invest Now</Button>
-          <Button variant="secondary">Join Early Riders</Button>
+          <Link href={"https://tally.so/r/woq84x"} target="_blank">
+            <Button>Join Early Drivers</Button>
+          </Link>
+          <Link href={"https://tally.so/r/311RQ1"} target="_blank">
+            <Button>Invest Now</Button>
+          </Link>
+          <Link href={"https://tally.so/r/wa8zqX"} target="_blank">
+            <Button variant="secondary">Join Early Riders</Button>
+          </Link>
         </div>
 
         <div className="flex items-center min-[425px]:flex-nowrap flex-wrap gap-3 bg-[#028C08] rounded-2xl text-white sm:px-5 px-3 sm:py-7 py-4 mt-10">

@@ -3,6 +3,7 @@ import Dollar from "@/components/icons/Dollar";
 import Location from "@/components/icons/Location";
 import Phone from "@/components/icons/Phone";
 import Verified from "@/components/icons/Verified";
+import Link from "next/link";
 import React from "react";
 
 const RevolutionizingRideshare = () => {
@@ -123,7 +124,9 @@ const RevolutionizingRideshare = () => {
           Be among the first drivers to experience the Epic Rides App difference
         </p>
 
-        <Button className="w-[500px]!">Become a Early founder driver</Button>
+        <Link href={"https://tally.so/r/woq84x"} target="_blank">
+          <Button className="w-[500px]!">Become a Early founder driver</Button>
+        </Link>
       </div>
     </div>
   );

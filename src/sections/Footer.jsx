@@ -4,6 +4,7 @@ import EmailSubscriptionFormFooter from "./EmailSubscriptionFormFooter";
 import Facebook from "@/components/icons/Facebook";
 import Instagram from "@/components/icons/Instagram";
 import TwitterX from "@/components/icons/TwitterX";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -30,17 +31,29 @@ const Footer = () => {
               </p>
 
               <div className="sm:mt-4 mt-2 flex items-center gap-2">
-                <div className="h-9 w-9 flex justify-center items-center rounded-full bg-[#028C08]">
-                  <Facebook />
-                </div>
+                <Link
+                  href="https://www.facebook.com/share/173gSSC4H5/?mibextid=wwXIfr"
+                  target="_blank"
+                >
+                  <div className="h-9 w-9 flex justify-center items-center rounded-full bg-[#028C08]">
+                    <Facebook />
+                  </div>
+                </Link>
 
-                <div className="h-9 w-9 flex justify-center items-center rounded-full bg-[#028C08]">
-                  <Instagram />
-                </div>
+                <Link
+                  href="https://www.instagram.com/epiccabby?igsh=cmlleTc1ZnNnbXFo"
+                  target="_blank"
+                >
+                  <div className="h-9 w-9 flex justify-center items-center rounded-full bg-[#028C08]">
+                    <Instagram />
+                  </div>
+                </Link>
 
-                <div className="h-9 w-9 flex justify-center items-center rounded-full bg-[#028C08]">
-                  <TwitterX />
-                </div>
+                <Link href="https://x.com/@epiccabby" target="_blank">
+                  <div className="h-9 w-9 flex justify-center items-center rounded-full bg-[#028C08]">
+                    <TwitterX />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

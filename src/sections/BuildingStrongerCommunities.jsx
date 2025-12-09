@@ -7,6 +7,7 @@ import HeartHealth from "@/components/icons/HeartHealth";
 import Users2 from "@/components/icons/Users2";
 import React from "react";
 import Donations from "./Donations";
+import Link from "next/link";
 
 const BuildingStrongerCommunities = () => {
   return (
@@ -123,7 +124,13 @@ const BuildingStrongerCommunities = () => {
           <Donations />
         </div>
 
-        <Button className="w-full">Donate Now</Button>
+        <Link
+          href={"https://gofund.me/b402c6ba"}
+          target="_blank"
+          className="w-full"
+        >
+          <Button className="w-full min-w-full">Donate Now</Button>
+        </Link>
       </div>
     </div>
   );
