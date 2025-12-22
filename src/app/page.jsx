@@ -1,3 +1,4 @@
+import About from "@/sections/About";
 import BePartoftheFuture from "@/sections/BePartoftheFuture";
 import BuildingStrongerCommunities from "@/sections/BuildingStrongerCommunities";
 import EmailSubscription from "@/sections/EmailSubscription";
@@ -14,7 +15,8 @@ const Home = () => {
       <RevolutionizingRideshare />
       <BePartoftheFuture />
       <OurCompetitiveEdge />
-      <BuildingStrongerCommunities />
+      {/* <BuildingStrongerCommunities /> */}
+      <About />
       <EmailSubscription />
       <Footer />
     </>
