@@ -10,7 +10,7 @@ const Navbar = () => {
         <Image src="/images/logo.png" alt="Logo" width={90} height={90} />
 
         <ul className="flex items-center gap-5 font-medium">
-          <li>
+          {/* <li>
             <Link href={"https://tally.so/r/311RQ1"} target="_blank">
               Invest
             </Link>
@@ -19,7 +19,7 @@ const Navbar = () => {
             <Link href={"https://gofund.me/b402c6ba"} target="_blank">
               Donate
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href={"https://tally.so/r/woq84x"} target="_blank">
               Founding Drivers
@@ -37,9 +37,10 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <Link href="https://tally.so/r/311RQ1" target="_blank">
+        <span></span>
+        {/* <Link href="https://tally.so/r/311RQ1" target="_blank">
           <Button>Invest Now</Button>
-        </Link>
+        </Link> */}
       </nav>
 
       <nav className="flex lg:hidden">

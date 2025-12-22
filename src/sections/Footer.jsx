@@ -66,9 +66,9 @@ const Footer = () => {
                     Get Involved
                   </p>
                 </li>
-                <li>Invest</li>
+                {/* <li>Invest</li> */}
                 <li>Founding Drivers</li>
-                <li>Donate</li>
+                {/* <li>Donate</li> */}
               </ul>
 
               <ul className="text-gray-400 mt-4 font-medium sm:space-y-4 space-y-2">

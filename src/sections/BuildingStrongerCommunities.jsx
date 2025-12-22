@@ -101,7 +101,7 @@ const BuildingStrongerCommunities = () => {
         </div>
       </div>
 
-      <div className="bg-[#EFFAE6] w-[975px] max-w-full flex flex-col justify-center items-center sm:py-8 py-6 sm:px-12 px-6 rounded-2xl shadow-[2px_2px_12px_2px_#B6E78D80]">
+      {/* <div className="bg-[#EFFAE6] w-[975px] max-w-full flex flex-col justify-center items-center sm:py-8 py-6 sm:px-12 px-6 rounded-2xl shadow-[2px_2px_12px_2px_#B6E78D80]">
         <h3 className="sm:text-3xl text-2xl font-semibold text-center">
           Support Our Mission{" "}
         </h3>
@@ -131,7 +131,7 @@ const BuildingStrongerCommunities = () => {
         >
           <Button className="w-full">Donate Now</Button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

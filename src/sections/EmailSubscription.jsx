@@ -44,9 +44,9 @@ const EmailSubscription = () => {
           <Link href={"https://tally.so/r/woq84x"} target="_blank">
             <Button>Join Early Drivers</Button>
           </Link>
-          <Link href={"https://tally.so/r/311RQ1"} target="_blank">
+          {/* <Link href={"https://tally.so/r/311RQ1"} target="_blank">
             <Button>Invest Now</Button>
-          </Link>
+          </Link> */}
           <Link href={"https://tally.so/r/wa8zqX"} target="_blank">
             <Button variant="secondary">Join Early Riders</Button>
           </Link>

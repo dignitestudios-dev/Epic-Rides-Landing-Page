@@ -30,7 +30,7 @@ const OurCompetitiveEdge = () => {
         ))}
       </div>
 
-      <div className="flex items-center sm:flex-row flex-col sm:gap-8 gap-4">
+      {/* <div className="flex items-center sm:flex-row flex-col sm:gap-8 gap-4">
         <Link href={"https://tally.so/r/311RQ1"} target="_blank">
           <Button className="lg:w-[370px] w-[220px]">Explore Investment</Button>
         </Link>
@@ -39,7 +39,7 @@ const OurCompetitiveEdge = () => {
             Invest Now
           </Button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };
