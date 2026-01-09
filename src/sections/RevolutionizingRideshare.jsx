@@ -54,8 +54,8 @@ const RevolutionizingRideshare = () => {
                   </h3>
                   <p className="text-xs">
                     Drivers keep 100% of fares with a simple $25/week
-                    subscription. Launch promo: $1/day for the first 2 weeks.
-                    Optional daily withdrawal available with 1% withdrawal fee.{" "}
+                    subscription. Daily withdrawal available with 5% withdrawal
+                    fee.{" "}
                   </p>
                 </div>
               </div>
@@ -105,9 +105,10 @@ const RevolutionizingRideshare = () => {
                     Cutting-Edge Technology{" "}
                   </h3>
                   <p className="text-xs">
+                    {" "}
                     Drivers keep 100% of fares with a simple $25/week
-                    subscription. Launch promo: $1/day for the first 2 weeks.
-                    Optional daily withdrawal available with 1% withdrawal fee.
+                    subscription. Daily withdrawal available with 5% withdrawal
+                    fee.{" "}
                   </p>
                 </div>
               </div>
