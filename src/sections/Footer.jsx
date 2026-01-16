@@ -1,6 +1,7 @@
 import React from "react";
 
-import { Facebook, Twitter,  LinkedinIcon } from "lucide-react";
+import { Facebook, Twitter, LinkedinIcon } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -30,7 +31,7 @@ export default function Footer() {
         <div className="flex justify-between items-start mb-8 gap-8">
           {/* Epic Rides Logo */}
           <div className="flex-shrink-0">
-         <img src="/images/Logo.png" alt="" className="w-[90px]"/>
+            <Image src="/images/logo.png" alt="Logo" width={90} height={90} />
           </div>
 
           {/* Social Media - Center */}
