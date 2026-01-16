@@ -8,42 +8,40 @@ import Users2 from "@/components/icons/Users2";
 import React from "react";
 import Donations from "./Donations";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const About = () => {
   return (
-    <div className="bg-linear-to-bl from-[#028C08] to-[#000B00] mycontainer md:py-16! py-10! md:px-20! flex flex-col justify-center items-center gap-10">
-      <div className="space-y-5">
-        <h2 className="section-heading text-(--primary) text-center">
+    <div className=" mycontainer md:py-16! py-10! md:px-20! flex flex-col justify-center items-center gap-10">
+     
+
+      <div className="flex gap-20">
+  <img src="/images/iPhone15MGO.png" alt="Phone 1" className="object-contain w-[80vh]"  />
+
+ 
+
+
+
+
+        <div className="md:col-span-2 space-y-10">
+           <div className="space-y-5">
+        <h2 className="section-heading text-[#FFFFFF] ">
           About Us
         </h2>
       </div>
-
-      <div className="md:grid flex flex-col-reverse md:grid-cols-5 gap-10 items-center">
-        <div className="md:col-span-3">
           <p className="text-white text-lg">
-            Epic Rides is a modern ride-sharing platform offering safe,
-            reliable, and flexible transportation for everyday travel. Built
-            with efficiency and transparency in mind, it connects riders with
-            nearby drivers through an intuitive digital experience. The platform
-            provides multiple ride options, including economic, luxury, and
-            carpool services. Real-time tracking, smart matching, and secure
-            payments ensure a smooth journey from start to finish. With verified
-            drivers and built-in safety features, Epic Rides is designed for
-            trust, quality, and long-term scalability.
+            Epic Rides is a next-generation ride share platform built to empower drivers and deliver a fair, transparent experience for riders. Founded by someone with firsthand experience in the ride share industry, the platform was created in response to high commissions, unfair earnings, and rising costs impacting both drivers and riders.
+          </p>
+          <p className="text-white text-lg">
+            Unlike traditional ride share apps, Epic Rides allows drivers to keep 100% of their earnings through a simple subscription model, while riders enjoy competitive fares without hidden surge pricing. The app features real-time GPS tracking, seamless in-app payments, and dependable support to ensure safety and reliability. After four years of research, planning, and preparation, Epic Rides was developed to create a more balanced, community-driven ride share ecosystem built for long-term sustainability
+          </p>
+          <p className="text-white text-lg">
+           With multiple ride options, real-time tracking, and built-in safety features, Epic Rides is committed to trust, quality, and community impact.
           </p>
         </div>
 
-        <div className="md:col-span-2 rounded-3xl h-[400px] md:w-auto w-full bg-[url(/images/section5.png)] bg-cover bg-right relative">
-          <div className="absolute top-0 right-0 bg-[#028C08] text-white rounded-3xl p-3 space-y-1 w-[150px] h-[85px] flex flex-col justify-center items-center">
-            <p className="text-2xl font-semibold text-center">100%</p>
-            <p className="font-semibold text-center">Fare Retention</p>
-          </div>
-
-          <div className="absolute bottom-0 left-0 bg-(--primary) text-white rounded-3xl p-3 space-y-1 w-[150px] h-[85px] flex flex-col justify-center items-center">
-            <p className="text-2xl font-semibold text-center">24/7</p>
-            <p className="font-semibold text-center">Driver Support</p>
-          </div>
-        </div>
+       
       </div>
 
       {/* <div className="bg-[#EFFAE6] w-[975px] max-w-full flex flex-col justify-center items-center sm:py-8 py-6 sm:px-12 px-6 rounded-2xl shadow-[2px_2px_12px_2px_#B6E78D80]">

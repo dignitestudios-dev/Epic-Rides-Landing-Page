@@ -1,123 +1,100 @@
-import Image from "next/image";
 import React from "react";
-import EmailSubscriptionFormFooter from "./EmailSubscriptionFormFooter";
-import Facebook from "@/components/icons/Facebook";
-import Instagram from "@/components/icons/Instagram";
-import TwitterX from "@/components/icons/TwitterX";
-import Link from "next/link";
 
-const Footer = () => {
+import { Facebook, Twitter,  LinkedinIcon } from "lucide-react";
+
+export default function Footer() {
   return (
-    <>
-      <div className="mycontainer lg:p-16! sm:p-10! p-5!">
-        <Image src="/images/logo.png" alt="Logo" width={90} height={90} />
-
-        <div className="grid lg:grid-cols-5 lg:gap-20 sm:gap-12 gap-4">
-          <div className="space-y-5 lg:col-span-2 mt-5">
-            <p className="font-medium text-gray-400">
-              Epic Rides App is the new rideshare platform built to put drivers
-              and riders first. Unlike other companies that take large
-              commissions, Epic Rides App allows drivers to keep 100% of their
-              earnings while offering lower fares to passengers. Our mission is
-              simple: create a fair, transparent, and community-driven rideshare
-              experience where everyone wins. With Epic Rides App, drivers earn
-              more, passengers save more, and together we're redefining what
-              rideshare should be.
+    <footer className="bg-black text-white py-16 px-4">
+      <div className="max-w-7xl mx-auto">
+        {/* Download App Section */}
+        <div className="bg-gradient-to-b from-[#61CB08]/32 via-[#61CB08]/20 to-[#61CB08]/22 rounded-3xl p-12 mb-16">
+          <div className="text-center">
+            <h2 className="text-gray-300 text-lg font-light mb-3">
+              Ready to Get Started
+            </h2>
+            <h3 className="text-5xl font-bold text-green-400 mb-6">
+              DOWNLOAD THE APP
+            </h3>
+            <p className="text-gray-300 text-base mb-8 max-w-2xl mx-auto leading-relaxed">
+              Download the Epic Rides app and be part of a ride-sharing
+              experience built for fairness, safety, and the future.
             </p>
-
-            <div>
-              <p className="sm:text-3xl text-xl font-bold text-[#525252]">
-                Follow Our Journey
-              </p>
-
-              <div className="sm:mt-4 mt-2 flex items-center gap-2">
-                <Link
-                  href="https://www.facebook.com/share/173gSSC4H5/?mibextid=wwXIfr"
-                  target="_blank"
-                >
-                  <div className="h-9 w-9 flex justify-center items-center rounded-full bg-[#028C08]">
-                    <Facebook />
-                  </div>
-                </Link>
-
-                <Link
-                  href="https://www.instagram.com/epiccabby?igsh=cmlleTc1ZnNnbXFo"
-                  target="_blank"
-                >
-                  <div className="h-9 w-9 flex justify-center items-center rounded-full bg-[#028C08]">
-                    <Instagram />
-                  </div>
-                </Link>
-
-                <Link href="https://x.com/@epiccabby" target="_blank">
-                  <div className="h-9 w-9 flex justify-center items-center rounded-full bg-[#028C08]">
-                    <TwitterX />
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className="lg:col-span-3">
-            <div className="flex items-start min-[425px]:flex-row flex-col sm:gap-28 min-[425px]:gap-10 gap-4">
-              <ul className="text-gray-400 mt-4 font-medium sm:space-y-4 space-y-2">
-                <li>
-                  <p className="sm:text-3xl text-xl font-bold text-[#525252]">
-                    Get Involved
-                  </p>
-                </li>
-                {/* <li>Invest</li> */}
-                <li>Founding Drivers</li>
-                {/* <li>Donate</li> */}
-              </ul>
-
-              <ul className="text-gray-400 mt-4 font-medium sm:space-y-4 space-y-2">
-                <li>
-                  <p className="sm:text-3xl text-xl font-bold text-[#525252]">
-                    Company{" "}
-                  </p>
-                </li>
-                <li>Contact</li>
-                <li>Privacy Policy</li>
-                <li>Terms of Service</li>
-              </ul>
-            </div>
-
-            <div className="text-white flex flex-col gap-3 sm:mt-20 mt-12 md:w-[525px] max-w-full">
-              <h3 className="text-3xl font-semibold text-[#525252]">
-                Stay Informed
-              </h3>
-
-              <p className="font-semibold text-gray-400">
-                Get the latest news about our launch and community programs{" "}
-              </p>
-
-              <EmailSubscriptionFormFooter />
+            <div className="flex justify-center gap-6">
+              <img src="/images/AppStore.png" alt="" className="w-[150px]" />
+              <img src="/images/PlayStore.png" alt=" " className="w-[150px]" />
             </div>
           </div>
         </div>
 
-        <div className="border-t-2 border-gray-300 text-[#525252] mt-10 py-10 w-full flex lg:flex-row flex-col lg:justify-between lg:gap-32 gap-5">
-          <p className="sm:text-nowrap">
-            © 2025 Epic Rides App. All rights reserved.
-          </p>
+        {/* Main Footer Content */}
+        <div className="flex justify-between items-start mb-8 gap-8">
+          {/* Epic Rides Logo */}
+          <div className="flex-shrink-0">
+         <img src="/images/Logo.png" alt="" className="w-[90px]"/>
+          </div>
 
-          <p className="lg:text-right">
-            <span className="font-semibold">Investment Notice:</span> For
-            general interest only—this is not an offer to sell securities. Any
-            investment opportunity will be subject to regulatory compliance and
-            due diligence. Potential returns are speculative and not guaranteed.
+          {/* Social Media - Center */}
+          <div className="flex-1 text-center">
+            <h3 className="text-white text-lg font-semibold mb-6">
+              Find us on Social Media
+            </h3>
+            <div className="flex justify-center gap-6">
+              <a
+                href="#"
+                className="w-14 h-14 border-2 border-gray-600 rounded-full flex items-center justify-center hover:border-green-400 transition-colors"
+              >
+                <Facebook size={24} strokeWidth={1} />
+              </a>
+              <a
+                href="#"
+                className="w-14 h-14 border-2 border-gray-600 rounded-full flex items-center justify-center hover:border-green-400 transition-colors"
+              >
+                <Twitter size={24} strokeWidth={1} />
+              </a>
+              <a
+                href="#"
+                className="w-14 h-14 border-2 border-gray-600 rounded-full flex items-center justify-center hover:border-green-400 transition-colors"
+              >
+                <LinkedinIcon size={24} strokeWidth={1} color="white" />
+              </a>
+            </div>
+          </div>
+
+          {/* Contact - Right */}
+          <div className="text-right flex-shrink-0">
+            <p className="text-gray-400 text-sm mb-2">contact us anytime at</p>
+            <a
+              href="mailto:info@epicrides.com"
+              className="text-gray-400 text-sm hover:text-green-400 transition-colors"
+            >
+              info@epicrides.com
+            </a>
+          </div>
+        </div>
+
+        {/* Divider */}
+        <hr className="border-gray-700 my-8" />
+
+        {/* Bottom Section */}
+        <div className="flex justify-between items-center">
+          <p className="text-gray-500 text-sm">
+            &copy; 2024 Epic Rides. All rights reserved.
           </p>
+          <div className="flex gap-4 text-gray-500 text-sm">
+            <a href="#" className="hover:text-white transition-colors">
+              Terms of Service
+            </a>
+            <span>|</span>
+            <a href="#" className="hover:text-white transition-colors">
+              Privacy Policy
+            </a>
+            <span>|</span>
+            <a href="#" className="hover:text-white transition-colors">
+              FAQs
+            </a>
+          </div>
         </div>
       </div>
-
-      <div className="pb-12">
-        <p className="text-center text-[#525252] text-xl font-medium">
-          Powered by Dignite Studios
-        </p>
-      </div>
-    </>
+    </footer>
   );
-};
-
-export default Footer;
+}

@@ -2,22 +2,23 @@ import Button from "@/components/Button";
 import Dollar from "@/components/icons/Dollar";
 import Location from "@/components/icons/Location";
 import Phone from "@/components/icons/Phone";
+import Users from "@/components/icons/Users";
+import Users2 from "@/components/icons/Users2";
 import Verified from "@/components/icons/Verified";
 import Link from "next/link";
 import React from "react";
 
 const RevolutionizingRideshare = () => {
   return (
-    <div className="bg-linear-to-bl from-[#028C08] to-[#000B00] mycontainer md:py-16! py-10! md:px-20! flex flex-col justify-center items-center gap-10">
+    <div className=" mycontainer md:py-16! py-10! md:px-20! flex flex-col justify-center items-center gap-10">
       <div className="space-y-5">
-        <h2 className="section-heading text-(--primary) text-center">
-          Revolutionizing Rideshare
+        <h2 className="section-heading text-[50px] text-center text-[#61CB08] font-[600]  leading-16">
+          Why Choose Epic Rides <br />
+          <span className="text-[#FFFFFF]">Fair Driver Compensation</span>
         </h2>
 
         <p className="text-white lg:w-[830px] max-w-full text-center md:text-xl sm:text-lg text-base">
-          Epic Rides App isn't just another rideshare platform. We're building a
-          community-driven ecosystem that prioritizes driver welfare and local
-          impact.
+         Drivers keep 100% of their fares with a simple weekly subscription model. Early drivers enjoy a special launch rate, with optional daily withdrawals available at a minimal fee.
         </p>
       </div>
 
@@ -46,33 +47,14 @@ const RevolutionizingRideshare = () => {
             <li>
               <div className="flex sm:gap-5 gap-2 items-start">
                 <div className="bg-[#028C08] w-10 h-10 min-w-10 min-h-10 rounded-full flex justify-center items-center">
-                  <Dollar />
+             <Users2 />
                 </div>
                 <div className="space-y-1">
                   <h3 className="sm:text-[22px] text-base font-semibold">
-                    Fair Driver Compensation
+                Community-Centered Approach
                   </h3>
                   <p className="text-xs">
-                    Drivers keep 100% of fares with a simple $25/week
-                    subscription. Daily withdrawal available with 5% withdrawal
-                    fee.{" "}
-                  </p>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div className="flex sm:gap-5 gap-2 items-start">
-                <div className="bg-[#028C08] w-10 h-10 min-w-10 min-h-10 rounded-full flex justify-center items-center">
-                  <Location />
-                </div>
-                <div className="space-y-1">
-                  <h3 className="sm:text-[22px] text-base font-semibold">
-                    Community-Centered Approach{" "}
-                  </h3>
-                  <p className="text-xs">
-                    We invest back into local communities through job creation,
-                    local partnerships, and community development programs.
+                   Epic Rides reinvests into local communities by supporting job creation, local partnerships, and sustainable growth.
                   </p>
                 </div>
               </div>
@@ -85,11 +67,10 @@ const RevolutionizingRideshare = () => {
                 </div>
                 <div className="space-y-1">
                   <h3 className="sm:text-[22px] text-base font-semibold">
-                    Safety & Security First{" "}
+                  Safety & Security First
                   </h3>
                   <p className="text-xs">
-                    Advanced safety protocols, comprehensive insurance coverage,
-                    and 24/7 emergency support for both drivers and riders.
+                    Verified drivers, live ride monitoring, verification codes, and emergency tools ensure peace of mind for riders and drivers alike.
                   </p>
                 </div>
               </div>
@@ -102,13 +83,26 @@ const RevolutionizingRideshare = () => {
                 </div>
                 <div className="space-y-1">
                   <h3 className="sm:text-[22px] text-base font-semibold">
-                    Cutting-Edge Technology{" "}
+                   Cutting-Edge Technology
                   </h3>
                   <p className="text-xs">
-                    {" "}
-                    Drivers keep 100% of fares with a simple $25/week
-                    subscription. Daily withdrawal available with 5% withdrawal
-                    fee.{" "}
+                    Powered by real-time geolocation, smart driver matching, and performance-optimized systems for a reliable experience.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="flex sm:gap-5 gap-2 items-start">
+                <div className="bg-[#028C08] w-10 h-10 min-w-10 min-h-10 rounded-full flex justify-center items-center">
+                 <Location />
+                </div>
+                <div className="space-y-1">
+                  <h3 className="sm:text-[22px] text-base font-semibold">
+                   Revolutionizing Rideshare
+                  </h3>
+                  <p className="text-xs">
+                   Epic Rides isn’t just another rideshare app. We’re building a community-driven ecosystem that prioritizes driver welfare, rider trust, and long-term sustainability.
                   </p>
                 </div>
               </div>
@@ -116,7 +110,7 @@ const RevolutionizingRideshare = () => {
           </ul>
         </div>
       </div>
-
+{/* 
       <div className="bg-[#EFFAE6] w-full flex flex-col justify-center items-center md:p-8 sm:p-6 p-3  sm:rounded-2xl rounded-xl shadow-[2px_2px_12px_2px_#B6E78D80]">
         <h3 className="sm:text-3xl text-xl font-semibold text-center">
           Ready to Join the Revolution?
@@ -130,7 +124,7 @@ const RevolutionizingRideshare = () => {
             Become a Early founder driver
           </Button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

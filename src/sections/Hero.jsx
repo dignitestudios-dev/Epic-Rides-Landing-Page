@@ -44,32 +44,13 @@ const Hero = () => {
               </span>
               .
             </p>
+            <div  className="flex flex-col gap-2 text-center">
+              <p className="text-white text-[22px]">First <span className="text-[#61CB08] font-semibold">10,000 Early Drivers</span></p>
+              <p className="text-white text-[22px]">Lifetime Rate: <span className="text-[#61CB08] font-semibold">$15 per week</span></p>
+            </div>
           </div>
 
           <div className="sm:space-y-10 space-y-5">
-            <div className="flex sm:gap-10 min-[425px]:gap-4 gap-2 items-center">
-              <div className="bg-(--primary) rounded-xl p-3 sm:space-y-2 sm:w-[205px] w-[130px] sm:h-[118px] h-[82px] flex flex-col justify-center items-center">
-                <p className="font-medium sm:text-lg text-xs text-center">
-                  Spots Remaining
-                </p>
-                <p className="sm:text-4xl text-xl font-semibold text-center">
-                  10,000
-                </p>
-              </div>
-
-              <div className="sm:scale-100 scale-50">
-                <RightArrow />
-              </div>
-
-              <div className="border-2 border-(--primary) text-(--primary) rounded-xl p-3 sm:space-y-2 sm:w-[205px] w-[130px] sm:h-[118px] h-[82px] flex flex-col justify-center items-center">
-                <p className="font-medium sm:text-lg text-xs text-center">
-                  Regular Rate
-                </p>
-                <p className="sm:text-4xl text-xl font-semibold text-center">
-                  $25/week
-                </p>
-              </div>
-            </div>
 
             <div className="flex justify-center">
               <Link href={"https://tally.so/r/woq84x"} target="_blank">
