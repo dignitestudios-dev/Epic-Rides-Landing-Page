@@ -42,7 +42,7 @@ const EmailSubscription = () => {
          
             <div
         
-              className="flex-1 flex flex-col min-[425px]:w-auto min-[425px]:min-w-auto w-[150px] min-w-[150px] items-center gap-1"
+              className="flex-1 flex flex-col  items-center gap-1"
             >
             <Driver />
               <h3 className="font-semibold text-xl text-center">

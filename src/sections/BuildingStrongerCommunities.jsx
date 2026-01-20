@@ -12,41 +12,38 @@ import Image from "next/image";
 
 const BuildingStrongerCommunities = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-b from-[#61CB08]/20 via-[#061a0f] to-black px-6 py-20">
-      <div className="max-w-7xl mx-auto">
-        
-        {/* Header */}
-        <div className="text-center mb-16">
-          <h1 className="text-[50px] md:text-6xl font-[600] mb-6">
-            <span className="text-[#61CB08]">EPIC RIDES,</span>{' '}
-            <span className="text-white">RELIABLE RIDES, FAIR PAY,</span>
-            <br />
-            <span className="text-white">BUILT FOR THE COMMUNITY</span>
-          </h1>
-          
-          <p className="text-gray-300 font-[400]  text-[18px] max-w-5xl mx-auto leading-relaxed">
-           Epic Rides is a next-generation ride‑sharing platform designed to put drivers first while delivering safe, reliable transportation for riders. Built with smart technology, transparent pricing, and real-time tracking, Epic Rides creates a seamless experience for everyone.
-          </p>
+   <section className="min-h-screen bg-gradient-to-b from-[#61CB08]/20 via-[#061a0f] to-black px-4 sm:px-6 py-12 md:py-20">
+  <div className="max-w-7xl mx-auto">
+    {/* Header */}
+    <div className="text-center mb-8 md:mb-16">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl font-[600] mb-4 md:mb-6">
+        <span className="text-[#61CB08]">EPIC RIDES,</span>{' '}
+        <span className="text-white">RELIABLE RIDES, FAIR PAY,</span>
+        <br className="hidden sm:block" />
+        <span className="text-white">BUILT FOR THE COMMUNITY</span>
+      </h1>
+      
+      <p className="text-gray-300 font-[400] text-base sm:text-lg md:text-[18px] max-w-4xl mx-auto leading-relaxed">
+        Epic Rides is a next-generation ride‑sharing platform designed to put drivers first while delivering safe, reliable transportation for riders. Built with smart technology, transparent pricing, and real-time tracking, Epic Rides creates a seamless experience for everyone.
+      </p>
+    </div>
+    {/* Phone Mockup */}
+    <div className="flex justify-center">
+      <div className="w-full max-w-md md:max-w-2xl lg:max-w-3xl">
+        <div className="relative">
+          <Image 
+            src="/images/Variant3.png" 
+            alt="Epic Rides App" 
+            width={700} 
+            height={700}
+            className="w-full h-auto"
+            priority
+          />
         </div>
-
-        {/* Phone Mockups */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-6">
-          
-          {/* Phone 1 - Map with Saved Locations */}
-          <div className="relative">
-            <Image src="/images/Variant3.png" alt="Phone 1" width={700} height={700} />
-          </div>
-
-         
-         
-
-        </div>
-
-        
-        
-
       </div>
-    </section>
+    </div>
+  </div>
+</section>
   );
 }
     // <div className="bg-linear-to-bl from-[#028C08] to-[#000B00] mycontainer md:py-16! py-10! md:px-20! flex flex-col justify-center items-center gap-10">
