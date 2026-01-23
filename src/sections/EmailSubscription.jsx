@@ -8,14 +8,11 @@ import EmailSubscriptionForm from "./EmailSubscriptionForm";
 import Link from "next/link";
 
 const EmailSubscription = () => {
- 
   return (
     <div className="w-full flex lg:flex-row flex-col items-start justify-between gap-10 mycontainer md:py-16! py-10! md:px-20!">
       <div>
         <h2 className="md:text-6xl sm:text-4xl text-3xl font-bold text-[#FFFFFF] leading-[1.2]">
-          <span className="text-[#61CB08] min-[1140px]:block">
-            Coming Soon
-          </span>
+          <span className="text-[#61CB08] min-[1140px]:block">Coming Soon</span>
           Epic Rides App is{" "}
         </h2>
 
@@ -33,25 +30,26 @@ const EmailSubscription = () => {
           <Link href={"https://tally.so/r/wa8zqX"} target="_blank">
             <Button>Join Early Riders</Button>
           </Link>
-            <Link href="/" target="_blank">
-          <Button variant="secondary" className="w-[200px]">Get the App</Button>
-        </Link>
+          <Link href="https://tally.so/r/311RQ1" target="_blank">
+            <Button variant="secondary" className="w-[200px]">
+              Get the App
+            </Button>
+          </Link>
         </div>
 
         <div className="  bg-[#028C08] rounded-2xl text-white sm:px-5 px-3   py-4 mt-10">
-         
-            <div
-        
-              className="flex-1 flex flex-col  items-center gap-1"
-            >
+          <div className="flex-1 flex flex-col  items-center gap-1">
             <Driver />
-              <h3 className="font-semibold text-xl text-center">
-                Driver First
-              </h3>
-              <p className="text-center text-[14px]">Better pay. More control. Real support.</p>
-              <p className="text-center text-[14px]">Epic Rides empowers drivers with transparent earnings, <br /> flexible schedules, and tools designed to support long-term success.</p>
-            </div>
-      
+            <h3 className="font-semibold text-xl text-center">Driver First</h3>
+            <p className="text-center text-[14px]">
+              Better pay. More control. Real support.
+            </p>
+            <p className="text-center text-[14px]">
+              Epic Rides empowers drivers with transparent earnings, <br />{" "}
+              flexible schedules, and tools designed to support long-term
+              success.
+            </p>
+          </div>
         </div>
       </div>
 
