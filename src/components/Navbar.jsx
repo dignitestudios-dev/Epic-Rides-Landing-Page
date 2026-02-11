@@ -5,16 +5,16 @@ import Button from "./Button";
 import Link from "next/link";
 
 const Navbar = () => {
-const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "#about", label: "About" },
-    {
-      href: "https://tally.so/r/woq84x",
-      label: "Founding Drivers",
-      external: true,
-    },
+    // {
+    //   href: "https://tally.so/r/woq84x",
+    //   label: "Founding Drivers",
+    //   external: true,
+    // },
     {
       href: "https://tally.so/r/3yW1A8",
       label: "Early Drivers",

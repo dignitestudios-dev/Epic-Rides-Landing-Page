@@ -54,7 +54,7 @@ const Hero = () => {
 
             <div className="flex justify-center">
               <Link href={"https://tally.so/r/woq84x"} target="_blank">
-                <Button className={"w-full"}>Become a founding driver</Button>
+                <Button className={"w-full"}>Become an early driver</Button>
               </Link>
             </div>
           </div>
